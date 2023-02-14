@@ -1,0 +1,15 @@
+# Use this file to define individuals or teams that are responsible for code in a repository.
+# Read more: <https://help.github.com/articles/about-codeowners/>
+#
+# Order is important: the last matching pattern takes the most precedence
+
+# These owners will be the default owners for everything
+*             @silent-software/engineering
+
+
+# Cloud Posse must review any changes to Makefiles
+**/Makefile   @silent-software/engineering
+
+
+# Cloud Posse must review any changes to GitHub actions
+.github/*     @silent-software/engineering
